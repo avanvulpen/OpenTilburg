@@ -2382,7 +2382,7 @@
         },
         "background-color": {
           "type": "color",
-          "value": "{tilburg.color.violet.100}"
+          "value": "{tilburg.alert.informative.background-color}"
         },
         "border-color": {
           "type": "color",
