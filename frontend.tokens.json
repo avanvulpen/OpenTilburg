@@ -2394,7 +2394,7 @@
         },
         "color": {
           "type": "color",
-          "value": "{tilburg.document.color}"
+          "value": "{tilburg.color.blue.500}"
         },
         "padding-inline": {
           "value": "{tilburg.space.inline.ant}",
