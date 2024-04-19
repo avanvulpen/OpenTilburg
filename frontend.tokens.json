@@ -4409,20 +4409,16 @@
           }
         },
         "cell": {
-          "padding-block-end": {
-            "value": "{tilburg.space.block.snail}",
-            "type": "spacing"
-          },
           "padding-block-start": {
             "value": "{tilburg.space.block.snail}",
             "type": "spacing"
           },
           "padding-inline-end": {
-            "value": "{tilburg.space.inline.mouse}",
+            "value": "{tilburg.alert.icon.padding-inline-start}",
             "type": "spacing"
           },
           "padding-inline-start": {
-            "value": "{tilburg.space.inline.mouse}",
+            "value": "{tilburg.alert.icon.padding-inline-end}",
             "type": "spacing"
           }
         },
@@ -4515,6 +4511,10 @@
           }
         }
       }
+    },
+    "sna": {
+      "value": "{tilburg.data-list.item-action.padding-block-end}",
+      "type": "spacing"
     }
   },
   "components/task-list": {
