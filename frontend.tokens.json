@@ -2723,6 +2723,10 @@
           }
         }
       }
+    },
+    "input-border-radius": {
+      "value": "{tilburg.border-radius.none}",
+      "type": "borderRadius"
     }
   },
   "components/form-field-checkbox-option": {
