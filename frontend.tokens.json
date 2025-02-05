@@ -528,6 +528,10 @@
         "round": {
           "value": "999px",
           "type": "borderRadius"
+        },
+        "none": {
+          "value": "0px",
+          "type": "borderRadius"
         }
       },
       "border-width": {
@@ -1200,7 +1204,7 @@
             "value": "{tilburg.border-width.sm}"
           },
           "font-family": {
-            "value": "{tilburg.document.font-family}",
+            "value": "{tilburg.typography.font-family.primary}",
             "type": "fontFamilies"
           },
           "font-weight": {
@@ -1663,11 +1667,11 @@
           "type": "spacing"
         },
         "font-family": {
-          "value": "{tilburg.document.font-family}",
+          "value": "{tilburg.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{tilburg.document.font-weight}",
+          "value": "{tilburg.typography.font-weight.bold}",
           "type": "fontWeights"
         }
       }
@@ -1732,7 +1736,7 @@
             }
           },
           "font-weight": {
-            "value": "{tilburg.document.strong.font-weight}",
+            "value": "{tilburg.typography.font-weight.bold}",
             "type": "fontWeights"
           },
           "active": {
@@ -1838,7 +1842,7 @@
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{tilburg.border-radius.md}"
+          "value": "{tilburg.border-radius.none}"
         },
         "border-width": {
           "type": "borderWidth",
@@ -1855,11 +1859,11 @@
           }
         },
         "font-family": {
-          "value": "{tilburg.document.font-family}",
+          "value": "{tilburg.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{tilburg.document.font-size}",
+          "value": "{tilburg.typography.font-size.lg}",
           "type": "fontSizes"
         },
         "font-weight": {
@@ -2866,7 +2870,7 @@
       "heading-1": {
         "color": {
           "type": "color",
-          "value": "{tilburg.heading.color}"
+          "value": "{tilburg.color.blue.400}"
         },
         "font-family": {
           "value": "{tilburg.heading.font-family}",
@@ -2888,7 +2892,7 @@
       "heading-2": {
         "color": {
           "type": "color",
-          "value": "{tilburg.heading.color}"
+          "value": "{tilburg.color.black-txt}"
         },
         "font-family": {
           "value": "{tilburg.heading.font-family}",
@@ -2910,7 +2914,7 @@
       "heading-3": {
         "color": {
           "type": "color",
-          "value": "{tilburg.heading.color}"
+          "value": "{tilburg.color.black-txt}"
         },
         "font-family": {
           "value": "{tilburg.heading.font-family}",
@@ -2932,7 +2936,7 @@
       "heading-4": {
         "color": {
           "type": "color",
-          "value": "{tilburg.heading.color}"
+          "value": "{tilburg.color.black-txt}"
         },
         "font-family": {
           "value": "{tilburg.heading.font-family}",
@@ -2954,7 +2958,7 @@
       "heading-5": {
         "color": {
           "type": "color",
-          "value": "{tilburg.heading.color}"
+          "value": "{tilburg.color.black-txt}"
         },
         "font-family": {
           "value": "{tilburg.heading.font-family}",
@@ -2976,7 +2980,7 @@
       "heading-6": {
         "color": {
           "type": "color",
-          "value": "{tilburg.heading.color}"
+          "value": "{tilburg.color.black-txt}"
         },
         "font-family": {
           "value": "{tilburg.heading.font-family}",
@@ -2995,6 +2999,12 @@
           "type": "fontSizes"
         }
       }
+    },
+    "header-uppercase": {
+      "value": {
+        "textCase": "{tilburg.avatar.text.text-transform}"
+      },
+      "type": "typography"
     }
   },
   "components/icon-only-button": {
@@ -3017,6 +3027,10 @@
           "type": "spacing"
         }
       }
+    },
+    "border-radius": {
+      "value": "{tilburg.border-radius.none}",
+      "type": "borderRadius"
     }
   },
   "components/link": {
@@ -3101,7 +3115,7 @@
           "type": "fontSizes"
         },
         "font-family": {
-          "value": "{tilburg.document.font-family}",
+          "value": "{tilburg.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "text-decoration-thickness": {
@@ -3113,7 +3127,7 @@
           "type": "other"
         },
         "font-weight": {
-          "value": "{tilburg.document.font-weight}",
+          "value": "{tilburg.typography.font-weight.bold}",
           "type": "fontWeights"
         }
       }
@@ -3394,7 +3408,7 @@
             "type": "borderRadius"
           },
           "font-weight": {
-            "value": "{tilburg.document.font-weight}",
+            "value": "{tilburg.typography.font-weight.bold}",
             "type": "fontWeights"
           },
           "min-block-size": {
@@ -3426,12 +3440,12 @@
             "value": "{tilburg.border-width.sm}"
           },
           "font-weight": {
-            "value": "{tilburg.document.font-weight}",
+            "value": "{tilburg.typography.font-weight.bold}",
             "type": "fontWeights"
           },
           "current": {
             "font-weight": {
-              "value": "{tilburg.document.strong.font-weight}",
+              "value": "{tilburg.typography.font-weight.bold}",
               "type": "fontWeights"
             },
             "text-decoration": {
@@ -3547,7 +3561,7 @@
           }
         },
         "font-family": {
-          "value": "{tilburg.document.font-family}",
+          "value": "{tilburg.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "line-height": {
@@ -3580,7 +3594,7 @@
             "type": "color"
           },
           "font-weight": {
-            "value": "{tilburg.document.font-weight}",
+            "value": "{tilburg.typography.font-weight.bold}",
             "type": "fontWeights"
           }
         },
@@ -3590,7 +3604,7 @@
             "type": "color"
           },
           "font-weight": {
-            "value": "{tilburg.document.font-weight}",
+            "value": "{tilburg.typography.font-weight.bold}",
             "type": "fontWeights"
           }
         }
@@ -4064,11 +4078,11 @@
             "type": "fontSizes"
           },
           "font-family": {
-            "value": "{tilburg.document.font-family}",
+            "value": "{tilburg.typography.font-family.primary}",
             "type": "fontFamilies"
           },
           "font-weight": {
-            "value": "{tilburg.document.font-weight}",
+            "value": "{tilburg.typography.font-weight.bold}",
             "type": "fontWeights"
           },
           "current": {
@@ -4143,7 +4157,7 @@
           "type": "fontWeights"
         },
         "font-family": {
-          "value": "{tilburg.document.font-family}",
+          "value": "{tilburg.typography.font-family.primary}",
           "type": "fontFamilies"
         },
         "font-size": {
