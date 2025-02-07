@@ -715,7 +715,7 @@
       },
       "heading": {
         "color": {
-          "value": "{tilburg.color.blue.500}",
+          "value": "{tilburg.color.black}",
           "type": "color"
         },
         "font-family": {
