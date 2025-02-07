@@ -62,11 +62,11 @@
         },
         "font-family": {
           "primary": {
-            "value": "Roboto Condensed",
+            "value": "Ubuntu",
             "type": "fontFamilies"
           },
           "secondary": {
-            "value": "Roboto",
+            "value": "Ubuntu",
             "type": "fontFamilies"
           }
         }
@@ -254,7 +254,7 @@
             "type": "color"
           },
           "300": {
-            "value": "#E5352C",
+            "value": "#E91119",
             "type": "color"
           },
           "400": {
@@ -749,7 +749,7 @@
       },
       "interaction": {
         "color": {
-          "value": "{tilburg.color.pink.300}",
+          "value": "{tilburg.color.red.300}",
           "type": "color"
         },
         "active": {
