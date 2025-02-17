@@ -106,7 +106,7 @@
             "type": "color"
           },
           "500": {
-            "value": "#7A8AA0",
+            "value": "#ABABAB",
             "type": "color"
           },
           "600": {
@@ -258,7 +258,7 @@
             "type": "color"
           },
           "400": {
-            "value": "#BF1A12",
+            "value": "#BA0E14",
             "type": "color"
           }
         }
