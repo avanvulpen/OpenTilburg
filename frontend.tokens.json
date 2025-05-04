@@ -62,11 +62,11 @@
         },
         "font-family": {
           "primary": {
-            "value": "Roboto Condensed",
+            "value": "Ubuntu",
             "type": "fontFamilies"
           },
           "secondary": {
-            "value": "Roboto",
+            "value": "Ubuntu",
             "type": "fontFamilies"
           }
         }
@@ -106,7 +106,7 @@
             "type": "color"
           },
           "500": {
-            "value": "#7A8AA0",
+            "value": "#ABABAB",
             "type": "color"
           },
           "600": {
@@ -254,11 +254,11 @@
             "type": "color"
           },
           "300": {
-            "value": "#E5352C",
+            "value": "#E91119",
             "type": "color"
           },
           "400": {
-            "value": "#BF1A12",
+            "value": "#BA0E14",
             "type": "color"
           }
         }
@@ -715,7 +715,7 @@
       },
       "heading": {
         "color": {
-          "value": "{tilburg.color.blue.500}",
+          "value": "{tilburg.color.black}",
           "type": "color"
         },
         "font-family": {
@@ -749,7 +749,7 @@
       },
       "interaction": {
         "color": {
-          "value": "{tilburg.color.pink.300}",
+          "value": "{tilburg.color.red.300}",
           "type": "color"
         },
         "active": {
